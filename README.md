@@ -1,0 +1,1 @@
+# Currency-trading-terminal-emulator
