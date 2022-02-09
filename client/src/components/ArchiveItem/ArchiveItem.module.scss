@@ -1,0 +1,37 @@
+.item__container{
+  display: flex;
+  height: 50px;
+  align-items: center;
+  margin-left: 15px;
+
+  .side{
+    font-size: 20px;
+  }
+
+  .price{
+    width: 50px;
+    margin-left: 20px;
+    font-size: 20px;
+    color: rgb(165, 165, 165);
+  }
+
+  .instrument{
+    width: 100px;
+    margin-left: 30px;
+    font-size: 20px;
+    color: rgb(165, 165, 165);
+  }
+
+  .volume{
+    width: 50px;
+    margin-left: 45px;
+    font-size: 20px;
+    color: rgb(165, 165, 165);
+  }
+
+  .timestamp{
+    margin-left: 40px;
+    font-size: 20px;
+    color: rgb(165, 165, 165);
+  }
+}

@@ -1,0 +1,140 @@
+.modal{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: scale(0);
+}
+
+.modal.active{
+  transform: scale(1);
+
+
+.modal_content{
+  z-index: 1;
+  position: absolute;
+  border-radius: 6px;
+  background-color: white;
+  height: 250px;
+  width: 350px;
+  border: 2px solid rgb(194, 194, 194);
+  margin-top: -1140px;
+
+  .header__section{
+    display: flex;
+    width: 350px;
+    border-bottom: 2px solid rgb(194, 194, 194);
+
+    p{
+      margin-left: 15px;
+      color: rgb(165, 165, 165);
+      font-size: 20px;
+    }
+
+    .close {
+      background-color: white;
+      border: 1px white solid;
+      position: absolute;
+      top: 11px;
+      left: 309px;
+      width: 20px;
+      height: 20px;
+      }
+    
+      .close:hover {
+      cursor: pointer;
+      }
+    
+      .close:before, .close:after {
+      position: absolute;
+      left: 15px;
+      content: ' ';
+      height: 22px;
+      width: 2px;
+      background-color: rgb(165, 165, 165);
+      }
+    
+      .close:before {
+      transform: rotate(45deg);
+      }
+      
+      .close:after {
+      transform: rotate(-45deg);
+      }
+  }
+
+  .info__section{
+    display: flex;
+    align-items: center;
+
+    h2{
+      color: red;
+      font-size: 27px;
+      margin-left: 20px;
+      margin-right: 18px;
+    }
+
+    p{
+      font-size: 24px;
+      color: rgb(165, 165, 165);
+    }
+  }
+
+  .input__section{
+    display: flex;
+    height: 50px;
+
+    p{
+      margin-left: 20px;
+      font-size: 24px;
+      color: rgb(165, 165, 165);
+      margin-right: 18px;
+      margin-top: 0;
+    }
+
+    input{
+      padding-left: 10px;
+      width: 205px;
+      height: 30px;
+      border: 2px solid rgb(194, 194, 194);
+      border-radius: 6px;
+      outline: none;
+    }
+  }
+
+  .butons__section{
+    display: flex;
+    align-items: center;
+    margin-top: 12px;
+
+    .cansel__button{
+      width: 80px;
+      height: 33px;
+      margin-left: 160px;
+      border-radius: 6px;
+      font-size: 17px;
+      color: white;
+      background-color: rgb(81, 81, 243);
+      border: 1px solid rgb(81, 81, 243);
+    }
+
+    .cansel__button:hover{
+      cursor: pointer;
+    }
+
+    .save__button{
+      width: 80px;
+      height: 33px;
+      margin-left: 11px;
+      border-radius: 6px;
+      font-size: 17px;
+      color: white;
+      background-color: rgb(194, 194, 194);
+      border: 1px solid rgb(194, 194, 194);
+    }
+
+    .save__button:hover{
+      cursor: pointer;
+    }
+  }
+}
+}
